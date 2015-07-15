@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "History";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>History</title>
+    <link rel="stylesheet" href="@Url.Content("~/Content/Styles.css")" type="text/css" />
+</head>
+<body>
+    <div style="text-align: center">
+        <h2>Rock, Paper, Scissors: history of game @ViewBag.gameNumberForHistory</h2> <br />
+        @Html.ActionLink("Return to game", "ReturnToIndex", null, new { type = "gameButton" }) <br /><br />
+        <table class="center">
+            <thead><tr><td>Player</td><td>Computer</td><td>Result</td><td>Number of wins</td></tr></thead>
+            <tbody>
+                @foreach (RockPaperScissors.Models.Game game in @ViewBag.selection)
+                {
+                    <tr><td>@game.Type</td><td>@game.EnemyType</td><td>@game.Result</td><td>@game.Wins</td></tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿@using RockPaperScissors.Models
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    AjaxOptions ajax = new AjaxOptions {
+        UpdateTargetId = "statistics",
+        Url = Url.Action("getStatistics")
+    };
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-1.8.2.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")"></script>
+    <link rel="stylesheet" href="@Url.Content("~/Content/Styles.css")" type="text/css" />
+</head>
+<body>
+    <div id="content">
+        @using(Ajax.BeginForm(ajax)) {
+            <h2>Rock, Paper, Scissors</h2> <br />
+        
+            @Html.ActionLink("Rock", "Rock", null, new {type="gameButton" })
+            @Html.ActionLink("Paper", "Paper", null, new {type="gameButton" }) 
+            @Html.ActionLink("Scissors", "Scissors", null, new {type="gameButton" }) <br /><br />
+            <div id="statistics">
+                @Html.Partial("getStatistics") <br />
+            </div>
+            <br />
+            @Html.ActionLink("End current game", "EndCurrentGame", null, new {type="gameButton" }) <br /> <br />
+            <div>Enter the number of game you want to revisit:</div> 
+        }
+        @using (Html.BeginForm("Search", "Home"))
+        {
+            @Html.TextBox("number")
+            <input type="submit" value="Search" />
+        }
+    </div>
+</body>
+</html>
+
+

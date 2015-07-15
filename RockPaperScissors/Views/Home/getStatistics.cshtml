@@ -1,0 +1,22 @@
+﻿@using RockPaperScissors.Models
+@{
+    Layout = null;
+}
+<html>
+    <head>
+        <title>Statistics</title>
+        <link rel="stylesheet" href="@Url.Content("~/Content/Styles.css")" type="text/css" />
+    </head>
+    <body>
+        <div>
+            You chose @ViewBag.SelectedOption <br />
+            Computer chose @ViewBag.compOption <br />
+            The result is: @ViewBag.result! <br />
+            Number of games total: = @ViewBag.GameID<br />
+            Wins total: = @ViewBag.AllWins<br /> 
+            Current game number: = @ViewBag.GameNumber<br />
+            Сurrent game wins: = @ViewBag.CurrentWins<br />
+            
+        </div>
+    </body>
+</html>
