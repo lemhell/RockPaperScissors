@@ -40,3 +40,45 @@ d:\users\lemhell\documents\visual studio 2012\Projects\RockPaperScissors\RockPap
 d:\users\lemhell\documents\visual studio 2012\Projects\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csprojResolveAssemblyReference.cache
 d:\users\lemhell\documents\visual studio 2012\Projects\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.dll
 d:\users\lemhell\documents\visual studio 2012\Projects\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csprojResolveAssemblyReference.cache
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\RockPaperScissors.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\RockPaperScissors.pdb
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\Antlr3.Runtime.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\EntityFramework.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\Microsoft.Web.Infrastructure.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\Newtonsoft.Json.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Net.Http.Formatting.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.Http.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.Http.WebHost.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.Mvc.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.Optimization.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.Providers.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.Razor.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.WebPages.Deployment.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.WebPages.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.WebPages.Razor.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\WebGrease.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\EntityFramework.xml
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\Newtonsoft.Json.xml
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Net.Http.Formatting.xml
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.Http.xml
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.Http.WebHost.xml
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.Mvc.xml
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.Razor.xml
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.WebPages.xml
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.WebPages.Deployment.xml
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\System.Web.WebPages.Razor.xml
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\ru\EntityFramework.resources.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\ru\System.Net.Http.Formatting.resources.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\ru\System.Web.Http.resources.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\ru\System.Web.Http.WebHost.resources.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\ru\System.Web.Mvc.resources.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\ru\System.Web.Optimization.resources.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\ru\System.Web.Providers.resources.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\ru\System.Web.Razor.resources.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\ru\System.Web.WebPages.resources.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Users\lemhell\Documents\GitHub\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\ru\System.Web.WebPages.Razor.resources.dll

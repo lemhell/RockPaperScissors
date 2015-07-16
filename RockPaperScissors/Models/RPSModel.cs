@@ -5,9 +5,6 @@ using System.Web;
 
 namespace RockPaperScissors.Models
 {
-
-    
-
     static class ResultMethods
     {
         public static int toInt(this RPSModel.Result res)
@@ -28,22 +25,10 @@ namespace RockPaperScissors.Models
     
     public class RPSModel
     {
-        public static int GAMEID = 0, GAMENUMBER = 0, CURRENTWINS = 0;
-        public static int Wins = 0;
-        public static int Losses = 0;
-        public static int Ties = 0;
-        /*
-        public int getWins() { return Wins; }
-        public int getLosses() { return Losses; }
-        public int getTies() { return Ties; }
-        
-        public static void setWins(int Wins) { this.Wins = Wins; }
-        public void setLosses(int Losses) { this.Losses = Losses; }
-        public void setTies(int Ties) { this.Ties = Ties; }
-        */
+        public static int GameID = 0, GameNumber = 0, CurrentWins = 0;
+        public static int Wins = 0, Losses = 0, Ties = 0;
         public enum Options { ROCK, PAPER, SCISSORS }
         public enum Result { WIN, LOSS, TIE }
-
         
         Random rand = new Random();
 
@@ -97,7 +82,5 @@ namespace RockPaperScissors.Models
             Ties++;
             return Result.TIE;
         }
-    
-        
     }
 }

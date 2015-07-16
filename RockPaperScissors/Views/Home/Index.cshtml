@@ -2,9 +2,9 @@
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    AjaxOptions ajax = new AjaxOptions {
-        UpdateTargetId = "statistics",
-        Url = Url.Action("getStatistics")
+    AjaxOptions ajax = new AjaxOptions
+    {
+        UpdateTargetId = "statistics"
     };
 }
 
@@ -18,23 +18,22 @@
 </head>
 <body>
     <div id="content">
-        @using(Ajax.BeginForm(ajax)) {
-            <h2>Rock, Paper, Scissors</h2> <br />
-        
-            @Html.ActionLink("Rock", "Rock", null, new {type="gameButton" })
-            @Html.ActionLink("Paper", "Paper", null, new {type="gameButton" }) 
-            @Html.ActionLink("Scissors", "Scissors", null, new {type="gameButton" }) <br /><br />
-            <div id="statistics">
-                @Html.Partial("getStatistics") <br />
-            </div>
-            <br />
-            @Html.ActionLink("End current game", "EndCurrentGame", null, new {type="gameButton" }) <br /> <br />
-            <div>Enter the number of game you want to revisit:</div> 
-        }
+        <h2>Rock, Paper, Scissors</h2> <br />
+        @Ajax.ActionLink("Rock", "Rock", "Home", ajax, new { type = "gameButton" })
+        @Ajax.ActionLink("Paper", "Paper", "Home", ajax, new { type = "gameButton" })
+        @Ajax.ActionLink("Scissors", "Scissors", "Home", ajax, new { type = "gameButton" }) <br /><br />
+        <div id="statistics">
+            @Html.Partial("getStatistics") <br />
+        </div>
+        <br />
+        @Ajax.ActionLink("End current game", "EndCurrentGame", "Home", new AjaxOptions { UpdateTargetId = "statistics" }, new { type = "gameButton" }) <br /> <br />
+        Enter the number of game you want to revisit: 
         @using (Html.BeginForm("Search", "Home"))
         {
-            @Html.TextBox("number")
-            <input type="submit" value="Search" />
+            <div id="searchTextBox">
+                @Html.TextBox("number")
+                <input type="submit" value="Search" />
+            </div>
         }
     </div>
 </body>
